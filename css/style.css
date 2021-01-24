@@ -1,0 +1,329 @@
+*{
+    outline: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+    
+}
+body{
+    background:radial-gradient(#9e1c7e,#2ca3c7);
+
+}
+
+
+
+.main{
+    margin:50px auto 0;
+    width:1440px;
+    height:auto;
+    padding-bottom: 50px;
+    background-color: #ffffff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.join{
+    margin-top:50px;
+}
+
+.main .join h2{
+    color: hsl(179, 62%, 43%);
+    font-weight: bold;
+    font-size: 40px;
+   padding-top: 50px;
+   padding-bottom: 20px;
+
+}
+
+.main .join .free{
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 35px;
+    font-size: xx-large;
+}
+
+.main .join p{
+    color:hsl(204, 9%, 77%);
+    
+    font-weight: 400;
+    margin-bottom:12px;
+    font-size: 20px;
+    
+}
+.main .join{
+    background-color: #ffffff;
+}
+
+
+ .identical{
+margin:0 auto ;
+    width:1440px;
+    height:400px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+
+    
+}
+
+.identical .sign,.whyUs{
+    float: left;
+    width: 50%;
+    
+}
+.sign{
+    background-color:hsl(179, 62%, 43%);
+    height: 500px;
+    padding-bottom: 50px;
+    border-bottom-left-radius: 20px;
+    
+}
+
+.sign h2{
+    margin: 10% 10% 5%;
+    font-weight: bolder;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.sign .month{
+    margin-left: 10%;
+    font-size: 40px;
+    color:#eeeeee;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+.sign .month small{
+    font-size: 25px;
+    color: #bbbbbb;
+    margin-left: 15px;
+}
+
+.sign .day{
+    margin-left: 10%;
+    font-size: 25px;
+    color:#e9e9e9;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+.sign button{
+    background-color:hsl(71, 73%, 54%); color: #ffffff;
+    border-radius: 8px;
+    margin-left: 10%;
+    text-align: center;
+    width: 60%;
+height: 60px;
+font-size: 30px;
+margin-top: 45px;
+box-shadow: -4px -7px 95px 12px rgba(227,199,227,1);
+cursor: pointer;
+    
+}
+
+.sign button:hover{
+    background-color: chartreuse;
+    box-shadow: none;
+}
+
+.whyUs{
+    background-color:hsl(179, 84%, 65%);
+    height: 500px;
+    padding-bottom: 50px;
+    color: #ffffff;
+    border-bottom-right-radius: 20px;
+    
+}.whyUs h2{
+    margin: 10% 10% 5%;
+    font-weight: bolder;
+    font-size: 50px;
+
+}
+.whyUs p{
+    width: 70%;
+margin-left: 10%;
+font-size: 30px;
+color: #e4e4e4;
+font-weight: lighter;
+line-height: 40px;
+}
+
+footer{
+    display: inline-block;
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    padding-left: 0%;
+}
+footer a{
+    text-decoration: none;
+    color:#ffffff;}
+
+
+
+
+@media screen and (max-width:600px){
+    *{
+        outline: none;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Karla', sans-serif;
+        border-radius: 0;
+    }
+    .container{
+        margin: 0 auto;
+        width: 90%;
+        
+    }
+    body{
+        background:radial-gradient(#9e1c7e,#61c5e4)
+    }
+    
+    
+    
+    .main{
+        margin:50px auto 0;
+        width: 375px;
+        height:auto;
+        padding-bottom: 50px;
+        background-color: #ffffff;
+    }
+    .join{
+        margin-top:50px;
+    }
+    
+    .main .join h2{
+        color: hsl(179, 62%, 43%);
+        font-weight: bold;
+        font-size: 25px;
+       padding-top: 50px;
+       padding-bottom: 20px;
+    
+    }
+    
+    .main .join .free{
+        color: hsl(71, 73%, 54%);
+        margin-bottom: 20px;
+        font-size: xx-large;
+    }
+    
+    .main .join p{
+        color:hsl(204, 9%, 77%);
+        
+        font-weight: 400;
+        margin-bottom:12px;
+        font-size: 15px;
+        
+    }
+    .main .join{
+        background-color: #ffffff;
+       
+    }
+    
+    
+     .identical{
+    margin:0 auto ;
+        width: 375px;
+        height:400px;
+        padding-bottom: 50px;
+        margin-bottom: 20px;
+    
+        
+    }
+    
+    .identical .sign,.whyUs{
+        width: 100%;
+        
+    }
+    .sign{
+        background-color:hsl(179, 62%, 43%);
+        height: 500px;
+        padding-bottom: 50px;
+    }
+    
+    .sign h2{
+        margin: 10% 10% 5%;
+        font-weight: bolder;
+        font-size: 25px;
+        color: #ffffff;
+    }
+    
+    .sign .month{
+        margin-left: 10%;
+        font-size: 25px;
+        color:#eeeeee;
+        line-height: 25px;
+        margin-bottom: 40px;
+    }
+    .sign .month small{
+        font-size: 15px;
+        color: #bbbbbb;
+        margin-left: 15px;
+    }
+    
+    .sign .day{
+        margin-left: 10%;
+        font-size: 15px;
+        color:#e9e9e9;
+        line-height: 25px;
+        margin-bottom: 40px;
+    }
+    
+    .sign button{
+        background-color:hsl(71, 73%, 54%); color: #ffffff;
+        border-radius: 8px;
+        margin-left: 5%;
+        text-align: center;
+        width: 90%;
+    height: 60px;
+    font-size: 30px;
+    margin-top: 45px;
+    box-shadow: -4px -7px 95px 12px rgb(151, 139, 151);
+    cursor: pointer;
+        
+    }
+    
+    .sign button:hover{
+        background-color: chartreuse;
+        box-shadow: none;
+    }
+    
+    .whyUs{
+        background-color:hsl(179, 84%, 65%);
+        height: 500px;
+        padding-bottom:100px;
+        color: #ffffff;
+        
+        
+    }.whyUs h2{
+        margin: 10% 10% 5%;
+        font-weight: bolder;
+        font-size: 50px;
+    
+    }
+    .whyUs p{
+        width: 90%;
+    margin-left: 10%;
+    font-size: 20px;
+    color: #e4e4e4;
+    font-weight: lighter;
+    line-height: 40px;
+    }
+    
+    footer{
+        display: inline-block;
+        width: 100%;
+        padding-top: 20px;
+        text-align: center;
+        font-size:10px;
+        padding-left: 0%;
+    }
+    footer a{
+        text-decoration: none;
+        color:#ffffff;
+    }
+}
